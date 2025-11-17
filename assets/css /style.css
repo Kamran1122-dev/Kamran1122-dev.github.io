@@ -9,7 +9,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-
 /* Header Nav */
 nav {
   display: flex;
@@ -22,14 +21,12 @@ nav {
   top: 0;
   z-index: 1000;
 }
-
 /* Left Side Profile */
 .nav-left {
   display: flex;
   align-items: center;
   gap: 0.8rem;
 }
-
 .nav-profile-pic {
   width: 50px;
   height: 50px;
@@ -37,19 +34,16 @@ nav {
   object-fit: cover;
   border: 2px solid #02ddf9;
 }
-
 .nav-name {
   font-size: 1.2rem;
   font-weight: 600;
   color: #ffffff; /* <-- Ensure visible on dark bg */
 }
-
 /* Right Side Links */
 .nav-right {
   display: flex;
   gap: 1.5rem;
 }
-
 .nav-right a {
   font-weight: 500;
   color: #dddddd;
@@ -57,7 +51,6 @@ nav {
   text-decoration: none;
   transition: color 0.3s;
 }
-
 .nav-right a::after {
   content: '';
   position: absolute;
@@ -68,15 +61,12 @@ nav {
   background: #00e0ff;
   transition: width 0.3s;
 }
-
 .nav-right a:hover {
   color: #00e0ff;
 }
-
 .nav-right a:hover::after {
   width: 100%;
 }
-
 /* Main Content */
 main {
   max-width: 1000px;
